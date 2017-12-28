@@ -68,6 +68,9 @@ p {
     box-shadow: none;
     border-radius: 0;
   }
+  #table-container{
+    overflow-x: scroll; /*Add scroll bar to the bottom of the table for small screen*/
+  }
 }
 
 /*End of media query*/
@@ -75,9 +78,6 @@ p {
 /*-----------------
 ------TABLE--------
 -------------------*/
-#table-container{
-  overflow-x: scroll;
-}
 table {
   width: 90%;
   margin: 0 auto;
