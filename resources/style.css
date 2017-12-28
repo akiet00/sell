@@ -70,8 +70,7 @@ table {
   word-wrap: break-word;
   border-collapse: collapse;
   border: 1px solid #d4d4d4;
-  display: block;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 tr:nth-child(even) {

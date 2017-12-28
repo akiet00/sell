@@ -22,7 +22,7 @@ function parseData(data) {
         table += rowCells[j];
         table += "</th>";
       } else { //Not first row
-        if (j === 3) { //column with hyperlink
+        if (j === 3 && rowCells[j].length != 0 ) { //column with hyperlink
           table += "<td>";
           table += "<a href=\'" + rowCells[j] + "\' target='_blank'>Buy</a>";
           table += "</td>";
