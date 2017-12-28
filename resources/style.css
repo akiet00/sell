@@ -62,7 +62,9 @@ p {
 
 /*End of media query*/
 
-/*Table*/
+/*-----------------
+------TABLE--------
+-------------------*/
 table {
   width: 90%;
   margin: 0 auto;
@@ -93,3 +95,4 @@ td:nth-child(4n){
 th {
   border-bottom: 1px solid #d4d4d4;
 }
+/*-------END OF TABLE--------*/
