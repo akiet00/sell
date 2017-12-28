@@ -73,6 +73,9 @@ p {
 /*-----------------
 ------TABLE--------
 -------------------*/
+#table-container{
+  overflow-x: scroll;
+}
 table {
   width: 90%;
   margin: 0 auto;
@@ -80,7 +83,6 @@ table {
   word-wrap: break-word;
   border-collapse: collapse;
   border: 1px solid #d4d4d4;
-  overflow: scroll;
 }
 
 tr:nth-child(even) {
