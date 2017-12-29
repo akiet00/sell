@@ -44,17 +44,6 @@ function parseData(data) {
   //Finishing table tags
   table += '</tbody>';
   table += '</table>';
-  //Append to spec sheet
+  //Append to specs sheet
   $('#table-container').append(table);
 }
-
-function loadImages(){
-  var img = null;
-  for(var i=0; i<3; i++){
-    img += "<img src=\'resources/img/pc" + (i+1) + ".jpg\'>";
-  }
-  $('#image-container').append(img);
-  console.log("Successfully loaded images");
-}
-
-loadImages();

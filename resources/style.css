@@ -108,7 +108,12 @@ th {
   border-bottom: 1px solid #d4d4d4;
 }
 /*-------END OF TABLE--------*/
-
+#image-container img{
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
 /*------SOCIAL MEDIA----------*/
 /* Style all font awesome icons */
 .fa {
