@@ -46,4 +46,5 @@ function parseData(data) {
   table += '</table>';
   //Append to specs sheet
   $('#table-container').append(table);
+  $('#table-container').append("<p>Please note that I will probably not going to sell the hard drives and possibly the keyboards with the computer.</p>")
 }
